@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ObinsKit</id>
+    <version>1.1.5</version>
+    <title>ObinsKit</title>
+    <authors>Obins Labs</authors>
+    <owners>Obins Labs</owners>
+    <projectUrl>https://obins.net/</projectUrl>
+    <iconUrl>https://cdn.statically.io/img/i.imgur.com/g0QsOpd.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ObinsKit is a software for Anne Pro keyboards</description>
+    <language>en-US</language>
+    <packageSourceUrl>https://github.com/nett00n/ObinsKit_chocolatey</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\*.ps1" target="tools"/>
+    <file src="tools\*.ahk" target="tools"/>
+  </files>
+</package>
