@@ -6,15 +6,15 @@
     <title>ObinsKit</title>
     <authors>Obins Labs</authors>
     <owners>Obins Labs</owners>
-    <projectUrl>https://obins.net/</projectUrl>
+    <projectUrl>http://en.obins.net/</projectUrl>
     <iconUrl>https://cdn.statically.io/img/i.imgur.com/g0QsOpd.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>ObinsKit is a software for Anne Pro keyboards</description>
     <language>en-US</language>
     <packageSourceUrl>https://github.com/nett00n/ObinsKit_chocolatey</packageSourceUrl>
+    <tags>obins keyboard utility obinskit obinslab</tags>
   </metadata>
   <files>
     <file src="tools\*.ps1" target="tools"/>
-    <file src="tools\*.ahk" target="tools"/>
   </files>
 </package>
