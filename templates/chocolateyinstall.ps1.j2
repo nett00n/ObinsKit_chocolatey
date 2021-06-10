@@ -1,0 +1,13 @@
+$packageArgs = @{
+    packageName = 'ObinsKit'
+    fileType = 'exe'
+    url64          = "{{ win64_url }}"
+    checksum64     = "{{ win64_hashsum }}"
+    url            = "{{ win32_url }}"
+    checksum       = "{{ win32_hashsum }}"
+    checksumType  = 'sha256'
+    checksumType64  = 'sha256'
+    silentArgs    = "/S"
+  }
+
+Install-ChocolateyPackage @packageArgs

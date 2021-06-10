@@ -1,0 +1,3 @@
+HTMLParser
+jinja2
+requests
