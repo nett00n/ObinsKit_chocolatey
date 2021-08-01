@@ -1,10 +1,10 @@
 $packageArgs = @{
     packageName = 'ObinsKit'
     fileType = 'exe'
-    url64          = "https://s2.hexcore.xyz/occ/win32/x64/ObinsKit_1.1.5_x64.exe"
-    checksum64     = "4aa001be2f9384bdb18fcb93f751d7f56f3b294db50a7f7ac272d0d6ef60b1f4"
-    url            = "https://s2.hexcore.xyz/occ/win32/ia32/ObinsKit_1.1.5_ia32.exe"
-    checksum       = "e50e7ceeca2667785d3cd2f738fa9520b98ebeab2f3fdd55feef7bbdfda4b71c"
+    url64          = "https://s3.hexcore.xyz/occ/win32/x64/ObinsKit_1.1.8_x64.exe"
+    checksum64     = "5f1b4708b75f5952e5bf3f237bf7dbcb708e3f91a4f03588c2dceb1a69bf3509"
+    url            = "https://s3.hexcore.xyz/occ/win32/ia32/ObinsKit_1.1.8_ia32.exe"
+    checksum       = "248aeaaf2527cd08e36192016c5a0d68846edddb173740e13d1a9ee7452be9c8"
     checksumType  = 'sha256'
     checksumType64  = 'sha256'
     silentArgs    = "/S"
