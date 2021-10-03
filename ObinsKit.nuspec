@@ -10,6 +10,14 @@
     <iconUrl>https://cdn.statically.io/img/i.imgur.com/g0QsOpd.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>ObinsKit is a software for Anne Pro keyboards</description>
+    <summary>
+      Official utility for configuring parameters for ObinLab keyboards:
+        - ANNE CLASSIC D87 RGB
+        - ANNE PRO 2
+        - ANNE PRO
+
+        https://www.hexcore.xyz/
+    </summary>
     <language>en-US</language>
     <packageSourceUrl>https://github.com/nett00n/ObinsKit_chocolatey</packageSourceUrl>
     <tags>obins keyboard utility obinskit obinslab</tags>
