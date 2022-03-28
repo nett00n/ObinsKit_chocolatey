@@ -9,8 +9,8 @@ import requests
 def main():
     global github_prefix
     github_prefix = "https://github.com/"
-    github_user = "freeorion"
-    github_repo = "freeorion"
+    github_user = "obinskit"
+    github_repo = "obinskit"
 
     html_data = get_data_from_url("https://www.hexcore.xyz/obinskit")
     latest_version = get_latest_version_from_html(html_data)
@@ -35,7 +35,7 @@ def render_choco_files(latest_version, win64_url, win32_url, win64_hashsum, win3
     nuspec_xml = define_nuspec_template()
     nuspec_xml_text = nuspec_xml.render(latest_version = latest_version)
     # print(nuspec_xml_text)
-    file = open('freeorion.nuspec', 'w')
+    file = open('obinskit.nuspec', 'w')
     file.write(nuspec_xml_text)
     file.close()
     chocolateyinstall_ps1 = define_chocolateinstall_template()
